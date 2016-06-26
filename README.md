@@ -23,16 +23,22 @@ The following **optional** features are implemented:
 * [ ] Add support for completion due dates for todo items (and display within listview item)
 * [ ] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
 * [ ] Add support for selecting the priority of each todo item (and display in listview item)
-* [ ] Tweak the style improving the UI / UX, play with colors, images or backgrounds
+* [X] Tweak the style improving the UI / UX, play with colors, images or backgrounds.
+** I changed the color to green.
 
 The following **additional** features are implemented:
-
+* [X] Following Nielson's Heuristic of visibility of system status, I provided a dialog box 
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of basic implemented user stories:
 
 <img src='toDoList.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Here's a walkthrough of my modified app with confirmation for user's edit action and a change in colors:
+
+<img src='Green To Do List.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 GIF created with [Recordit](http://recordit.co/).
 
