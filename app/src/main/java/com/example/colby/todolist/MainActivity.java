@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
             int code = data.getExtras().getInt("code", 0);
             items.remove(position);
             itemsAdapter.insert(name, position);
-            Toast.makeText(this, "Task is now: '"   + name + "'", Toast.LENGTH_SHORT).show(); // show the data passed back
+            Toast.makeText(this, "Task is now: \n'" + name + "'", Toast.LENGTH_SHORT).show(); // show the data passed back
             writeItems();
 
         }
