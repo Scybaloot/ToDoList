@@ -46,7 +46,7 @@ I faced several challenges while programming this application
 
 **Approach**
 
-Roadblocks were faced, and I solved them by doing the following
+Roadblocks were faced, but I solved them by doing the following
 * Asked "What is the goal?" and "What do I think I am doing?"
 * Tested components to find what was working/broken.
 * Read CodePath documentation, paying attention to key terms. 

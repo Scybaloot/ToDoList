@@ -4,7 +4,7 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="163348717006497"
+    timestamp="164538042154785"
     token="6645118702710499765" >
 
     <task
@@ -98,6 +98,6 @@
             location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/builds/debug/163340857544102/classes.dex"
             type="RELOAD_DEX" />
     </build>
-    <build timestamp="163348717006497" />
+    <build timestamp="164538042154785" />
 
 </instant-run>
