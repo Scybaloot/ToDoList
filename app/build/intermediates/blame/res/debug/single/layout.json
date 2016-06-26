@@ -36,12 +36,12 @@
         "source": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
@@ -134,6 +134,10 @@
     {
         "merged": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/res/merged/debug/layout/activity_edit_item.xml",
+        "source": "/Users/Colby/Documents/android/ToDoList/app/src/main/res/layout/activity_edit_item.xml"
     },
     {
         "merged": "/Users/Colby/Documents/android/ToDoList/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",

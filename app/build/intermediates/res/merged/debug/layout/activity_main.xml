@@ -39,4 +39,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/etNewItem" />
+<!--
+        Listener in xml for clicking on a list item
+    -->
+
 </RelativeLayout>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml:2:1-21:12
 	package
 		ADDED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.
 		INJECTED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml:5:5-18:19
+ADDED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Colby/Documents/android/ToDoList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/Colby/Documents/android/ToDoList/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/Colby/Documents/android/ToDoList/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
@@ -46,6 +46,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml:15:27-74
+activity#com.example.colby.todolist.editItemActivity
+ADDED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml:18:9-63
+	android:name
+		ADDED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml:18:19-51
 uses-sdk
 INJECTED from /Users/Colby/Documents/android/ToDoList/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Colby/Documents/android/ToDoList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78
