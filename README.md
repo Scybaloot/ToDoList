@@ -48,9 +48,9 @@ I faced several challenges while programming this application
 
 Roadblocks were faced, but when I faced them I did the following:
 Markup : 1. Asked: "What is the goal?" and "What do I think I am doing?""
-3. Tested components to find what was working/broken.
-5. Read CodePath documentation, paying attention to key terms. 
-4. If I didn't understand a term in the documentation, I'd read more background documentation to learn how things like intents and actions worked. 
+		 2. Tested components to find what was working/broken.
+		 3. Read CodePath documentation, paying attention to key terms. 
+		 4. If I didn't understand a term in the documentation, I'd read more background documentation to learn how things like intents and actions worked. 
  
 ## License
 
