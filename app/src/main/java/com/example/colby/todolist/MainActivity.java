@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<String> items;
     ArrayAdapter<String> itemsAdapter;
     ListView lvItems;
+    //set request code
+    private final int REQUEST_CODE = 20;
 
 
     @Override
@@ -60,17 +62,12 @@ public class MainActivity extends AppCompatActivity {
                         Intent i = new Intent(MainActivity.this, editItemActivity.class);
                         // put "extras" into the bundle for access in the second activity
                         i.putExtra("taskName", selectedFromList);
-                        // call getText().toString() on id?
                         i.putExtra("position", pos);
-                        i.putExtra("mode", 2); // pass arbitrary data to launched activity
-                        // brings up the second activity
-                        startActivityForResult(i, REQUEST_CODE);
+                        i.putExtra("mode", 2);
+                        startActivityForResult(i, REQUEST_CODE); // set up activity to receive data.
                     }
-                    //whatt? How to receive data and update?
-
                 }
         );
-        //is this how I get it to listen to a long click?
     }
 
 
@@ -84,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //update todo file
     private void writeItems() {
         File filesDir = getFilesDir();
         File todoFile = new File(filesDir, "todo.txt");
@@ -103,28 +101,17 @@ public class MainActivity extends AppCompatActivity {
         writeItems();
     }
 
-    private final int REQUEST_CODE = 20;
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // REQUEST_CODE is defined above
         if (resultCode == RESULT_OK && requestCode == REQUEST_CODE) {
-            //ArrayAdapter<?> itemsAdapter =
-            //        new ArrayAdapter<>(this, R.layout.lvItems, items);
-            // Extract name value from result extras
-            //ListView etNewItem = (ListView) findViewById(R.id.etNewItem);
-
-            //readItems();
             writeItems();
             String name = data.getExtras().getString("taskName");
             int position = data.getExtras().getInt("position");
             int code = data.getExtras().getInt("code", 0);
-            // Toast the name to display temporarily on screen
             items.remove(position);
             itemsAdapter.insert(name, position);
-
-            //itemsAdapter.notifyDataSetChanged();
-
             //Toast.makeText(this, name, Toast.LENGTH_SHORT).show(); // show the data passed back
             writeItems();
 

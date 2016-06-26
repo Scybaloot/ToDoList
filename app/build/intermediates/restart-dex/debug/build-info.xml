@@ -4,26 +4,21 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="158337445877801"
-    token="6645118702710499765"
-    verifier="COMPATIBLE" >
+    timestamp="163348717006497"
+    token="6645118702710499765" >
 
     <task
         name="javac"
-        duration="191" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="480" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="19" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
-
-    <artifact
-        location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        duration="0" />
 
     <build timestamp="149406264307772" >
         <artifact
@@ -67,8 +62,42 @@
         timestamp="158337445877801"
         verifier="COMPATIBLE" >
         <artifact
-            location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/reload-dex/debug/classes.dex"
+            location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/builds/debug/158337445877801/classes.dex"
             type="RELOAD_DEX" />
     </build>
+    <build timestamp="162967443037021" >
+        <artifact
+            location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="163105663712214"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/builds/debug/163105663712214/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="163201985178451"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/builds/debug/163201985178451/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="163247011911053"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/builds/debug/163247011911053/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="163340857544102"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/builds/debug/163340857544102/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="163348717006497" />
 
 </instant-run>

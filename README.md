@@ -39,15 +39,15 @@ GIF created with [Recordit](http://recordit.co/).
 ## Notes
 
 I faced several challenges while programming this application
-* [ ] I misunderstood how scoping worked for variables. Ex. In the editItemActivity.java file, I received the position with intents in the onCreate method, but didn't realize I needed to call it again in the submit method.
-* [ ] Calling the wrong id/item. Ex. etNewItem vs lvItems
-* [ ] I misunderstood how to make a long-click listener for the list. I tried to put a long-click listener in the activity_edit_item.xml file instead of the MainActivity.java file. 
-* [ ] I tried to set a new adapter view when removing and inserting items into the list.  
+* I misunderstood how scoping worked for variables. Ex. In the editItemActivity.java file, I received the position with intents in the onCreate method, but didn't realize I needed to call it again in the submit method.
+* Calling the wrong id/item. Ex. etNewItem vs lvItems
+* I misunderstood how to make a long-click listener for the list. I tried to put a long-click listener in the activity_edit_item.xml file instead of the MainActivity.java file. 
+* I tried to set a new adapter view when removing and inserting items into the list.  
 
-# Approach
+** Approach **
 
 Roadblocks were faced, but when I faced them I did the following:
-1. Asked: "What is the goal?" and "What do I think I am doing?""
+Markup: 1. Asked: "What is the goal?" and "What do I think I am doing?""
 3. Tested components to find what was working/broken.
 5. Read CodePath documentation, paying attention to key terms. 
 4. If I didn't understand a term in the documentation, I'd read more background documentation to learn how things like intents and actions worked. 
