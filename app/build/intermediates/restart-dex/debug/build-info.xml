@@ -4,26 +4,21 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="171793968634835"
-    token="6645118702710499765"
-    verifier="COMPATIBLE" >
+    timestamp="172907981961619"
+    token="6645118702710499765" >
 
     <task
         name="javac"
-        duration="91" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="648" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="20" />
+        duration="0" />
     <task
         name="verifier"
         duration="0" />
-
-    <artifact
-        location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
 
     <build timestamp="168587709381857" >
         <artifact
@@ -91,8 +86,9 @@
         timestamp="171793968634835"
         verifier="COMPATIBLE" >
         <artifact
-            location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/reload-dex/debug/classes.dex"
+            location="/Users/Colby/Documents/android/ToDoList/app/build/intermediates/builds/debug/171793968634835/classes.dex"
             type="RELOAD_DEX" />
     </build>
+    <build timestamp="172907981961619" />
 
 </instant-run>
