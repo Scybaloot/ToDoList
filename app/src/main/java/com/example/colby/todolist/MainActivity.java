@@ -109,20 +109,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // REQUEST_CODE is defined above
         if (resultCode == RESULT_OK && requestCode == REQUEST_CODE) {
-
+            //ArrayAdapter<?> itemsAdapter =
+            //        new ArrayAdapter<>(this, R.layout.lvItems, items);
             // Extract name value from result extras
             //ListView etNewItem = (ListView) findViewById(R.id.etNewItem);
 
-            readItems();
+            //readItems();
             writeItems();
-
             String name = data.getExtras().getString("taskName");
             int position = data.getExtras().getInt("position");
             int code = data.getExtras().getInt("code", 0);
             // Toast the name to display temporarily on screen
-            itemsAdapter.insert(name, position);
             items.remove(position);
-            itemsAdapter.notifyDataSetChanged();
+            itemsAdapter.insert(name, position);
+
+            //itemsAdapter.notifyDataSetChanged();
 
             //Toast.makeText(this, name, Toast.LENGTH_SHORT).show(); // show the data passed back
             writeItems();

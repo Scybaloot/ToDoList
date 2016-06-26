@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 
 public class editItemActivity extends AppCompatActivity {
@@ -21,7 +22,7 @@ public class editItemActivity extends AppCompatActivity {
         EditText etNewItem = (EditText)findViewById(R.id.editText);
         etNewItem.setText(taskName);
         etNewItem.setSelection(taskName.length());
-
+        //return position;
 
         //etNewItem= taskName;
 
@@ -34,6 +35,7 @@ public class editItemActivity extends AppCompatActivity {
     public void saveChanges(View v) {
         EditText etNewItem = (EditText) findViewById(R.id.editText);
         String updatedItem = etNewItem.getText().toString();
+        int position = getIntent().getIntExtra("position", 0);
         // logcat.print(updatedItem)
 //        itemsAdapter.add(itemText);
 //        etNewItem.setText("");
@@ -41,7 +43,7 @@ public class editItemActivity extends AppCompatActivity {
         Intent data = new Intent();
         // Pass relevant data back as a result
         data.putExtra("taskName", etNewItem.getText().toString());
-        data.putExtra("position", 0);
+        data.putExtra("position", position);
         data.putExtra("code", 20); // ints work too
         // Activity finished ok, return the data
         setResult(RESULT_OK, data); // set re
