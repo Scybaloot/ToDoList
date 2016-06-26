@@ -19,7 +19,7 @@ public class editItemActivity extends AppCompatActivity {
         int code = getIntent().getIntExtra("code", 0);
 
         //write text. set default value, or write to the field?
-        EditText etNewItem = (EditText)findViewById(R.id.editText);
+        EditText etNewItem = (EditText)findViewById(R.id.editTeCext);
         etNewItem.setText(taskName);
         etNewItem.setSelection(taskName.length());
         //return position;
