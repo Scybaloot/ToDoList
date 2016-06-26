@@ -44,10 +44,10 @@ I faced several challenges while programming this application
 * I misunderstood how to make a long-click listener for the list. I tried to put a long-click listener in the activity_edit_item.xml file instead of the MainActivity.java file. 
 * I tried to set a new adapter view when removing and inserting items into the list.  
 
-** Approach **
+**Approach**
 
-Roadblocks were faced, but when I faced them I did the following:
-1. Asked: "What is the goal?" and "What do I think I am doing?""
+Roadblocks were faced, but when I faced them I did the following
+1. Asked "What is the goal?" and "What do I think I am doing?"
 2. Tested components to find what was working/broken.
 3. Read CodePath documentation, paying attention to key terms. 
 4. If I didn't understand a term in the documentation, I'd read more background documentation to learn how things like intents and actions worked. 
