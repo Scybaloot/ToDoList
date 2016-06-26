@@ -1,0 +1,8 @@
+This application was written by Colby Sato in June 2016, following the CodePath Tutorial
+
+This basic version allows the user to:
+1. Add items
+2. Delete items
+3. Edit items 
+
+<img src="toDoList.gif">
